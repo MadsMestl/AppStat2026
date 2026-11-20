@@ -1,0 +1,154 @@
+
+# ==========================================
+# Python
+# ==========================================
+
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Python testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# ==========================================
+# Jupyter Notebook
+# ==========================================
+
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Jupyter runtime files
+.jupyter/
+runtime/
+
+# ==========================================
+# Scientific Python
+# ==========================================
+
+# NumPy
+*.npy
+*.npz
+
+# SciPy / scientific data
+*.mat
+*.h5
+*.hdf5
+
+# Pandas / data exports
+*.pkl
+*.pickle
+
+# Compiled scientific libraries
+*.so
+*.dll
+*.dylib
+
+# ==========================================
+# Data and datasets
+# ==========================================
+
+# Raw and processed data (adjust if needed)
+data/raw/
+data/processed/
+datasets/
+
+# Large data files
+*.csv
+*.txt
+*.tsv
+*.parquet
+*.feather
+*.arrow
+*.sqlite
+*.db
+
+# ==========================================
+# Plotting and outputs
+# ==========================================
+
+# Generated figures
+figures/generated/
+plots/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# ==========================================
+# VS Code
+# ==========================================
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# ==========================================
+# Operating system
+# ==========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ==========================================
+# IDEs and editors
+# ==========================================
+
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Environment variables and secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==========================================
+# Logs and temporary files
+# ==========================================
+
+*.log
+*.tmp
+*.bak
+temp/
+tmp/
+
